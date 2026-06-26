@@ -1,0 +1,7 @@
+[
+  { "symbol": "TSLA", "quantity": 5000, "price": 210.10, "currency": "USD" },
+  { "symbol": "NVDA", "quantity": 3000, "price": 880.00, "currency": "USD" },
+  { "symbol": "AAPL", "quantity": 2500, "price": 170.25, "currency": "USD" },
+  { "symbol": "GME", "quantity": 10000, "price": 0.05, "currency": "USD" },
+  { "symbol": "AMC", "quantity": 8000, "price": 0.01, "currency": "USD" }
+]

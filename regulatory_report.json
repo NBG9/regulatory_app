@@ -1,0 +1,217 @@
+{
+    "meta": {
+        "generated_at": "2026-05-16T16:23:05.615949",
+        "report_type": "AIFMD_LITE_SIMULATION",
+        "version": "1.0"
+    },
+    "metrics": {
+        "nav": 417406.0,
+        "currency": "USD"
+    },
+    "risk": {
+        "nav": 417406.0,
+        "gross_exposure": 459406.0,
+        "net_exposure": 417406.0,
+        "long_exposure": 438406.0,
+        "short_exposure": 21000.0,
+        "concentration_risk": {
+            "top_single_asset_weight": 0.4447046838743943
+        }
+    },
+    "validation": {
+        "status": "PASSED",
+        "errors": [],
+        "warnings": [
+            {
+                "rule": "SHORT_POSITION_DETECTED",
+                "message": "1 SHORT positions found"
+            }
+        ]
+    },
+    "lineage": {
+        "nav_lineage": {
+            "formula": "sum(position_values)",
+            "final_nav": 417406.0,
+            "components": [
+                {
+                    "symbol": "AAPL",
+                    "type": "LONG",
+                    "value": 204300.0
+                },
+                {
+                    "symbol": "TSLA",
+                    "type": "LONG",
+                    "value": 105050.0
+                },
+                {
+                    "symbol": "SAP",
+                    "type": "LONG",
+                    "value": 45780.00000000001
+                },
+                {
+                    "symbol": "NESN",
+                    "type": "LONG",
+                    "value": 83276.00000000001
+                },
+                {
+                    "symbol": "BABA",
+                    "type": "LONG",
+                    "value": 0.0
+                },
+                {
+                    "symbol": "MSFT",
+                    "type": "SHORT",
+                    "value": -21000.0
+                }
+            ],
+            "interpretation": {
+                "note": "NAV includes both long and short exposures",
+                "rule": "Short positions reduce NAV; long positions increase NAV"
+            }
+        },
+        "asset_lineage": [
+            {
+                "symbol": "AAPL",
+                "position_type": "LONG",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": 1200.0,
+                    "price_usd": 170.25,
+                    "position_value": 204300.0,
+                    "gross_exposure": 204300.0,
+                    "interpretation": "Long position (positive exposure contributes positively to NAV)"
+                }
+            },
+            {
+                "symbol": "TSLA",
+                "position_type": "LONG",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": 500.0,
+                    "price_usd": 210.1,
+                    "position_value": 105050.0,
+                    "gross_exposure": 105050.0,
+                    "interpretation": "Long position (positive exposure contributes positively to NAV)"
+                }
+            },
+            {
+                "symbol": "SAP",
+                "position_type": "LONG",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": 300.0,
+                    "price_usd": 152.60000000000002,
+                    "position_value": 45780.00000000001,
+                    "gross_exposure": 45780.00000000001,
+                    "note": "includes FX conversion to USD",
+                    "interpretation": "Long position (positive exposure contributes positively to NAV)"
+                }
+            },
+            {
+                "symbol": "NESN",
+                "position_type": "LONG",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": 800.0,
+                    "price_usd": 104.09500000000001,
+                    "position_value": 83276.00000000001,
+                    "gross_exposure": 83276.00000000001,
+                    "note": "includes FX conversion to USD",
+                    "interpretation": "Long position (positive exposure contributes positively to NAV)"
+                }
+            },
+            {
+                "symbol": "BABA",
+                "position_type": "LONG",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": 1000.0,
+                    "price_usd": 0.0,
+                    "position_value": 0.0,
+                    "gross_exposure": 0.0,
+                    "interpretation": "Long position (positive exposure contributes positively to NAV)"
+                }
+            },
+            {
+                "symbol": "MSFT",
+                "position_type": "SHORT",
+                "computation": {
+                    "formula": "quantity * price_usd",
+                    "quantity": -50.0,
+                    "price_usd": 420.0,
+                    "position_value": -21000.0,
+                    "gross_exposure": 21000.0,
+                    "interpretation": "Short position (negative exposure contributes negatively to NAV)"
+                }
+            }
+        ]
+    },
+    "positions": [
+        {
+            "symbol": "AAPL",
+            "quantity": 1200.0,
+            "price_usd": 170.25,
+            "position_type": "LONG",
+            "position_value": 204300.0,
+            "gross_exposure": 204300.0,
+            "notes": "LONG POSITION"
+        },
+        {
+            "symbol": "TSLA",
+            "quantity": 500.0,
+            "price_usd": 210.1,
+            "position_type": "LONG",
+            "position_value": 105050.0,
+            "gross_exposure": 105050.0,
+            "notes": "LONG POSITION"
+        },
+        {
+            "symbol": "SAP",
+            "quantity": 300.0,
+            "price_usd": 152.60000000000002,
+            "position_type": "LONG",
+            "position_value": 45780.00000000001,
+            "gross_exposure": 45780.00000000001,
+            "notes": "LONG POSITION"
+        },
+        {
+            "symbol": "NESN",
+            "quantity": 800.0,
+            "price_usd": 104.09500000000001,
+            "position_type": "LONG",
+            "position_value": 83276.00000000001,
+            "gross_exposure": 83276.00000000001,
+            "notes": "LONG POSITION"
+        },
+        {
+            "symbol": "BABA",
+            "quantity": 1000.0,
+            "price_usd": 0.0,
+            "position_type": "LONG",
+            "position_value": 0.0,
+            "gross_exposure": 0.0,
+            "notes": "LONG POSITION"
+        },
+        {
+            "symbol": "MSFT",
+            "quantity": -50.0,
+            "price_usd": 420.0,
+            "position_type": "SHORT",
+            "position_value": -21000.0,
+            "gross_exposure": 21000.0,
+            "notes": "SHORT POSITION"
+        }
+    ],
+    "dataset_summary": {
+        "rows": 6,
+        "columns": [
+            "symbol",
+            "quantity",
+            "price",
+            "currency",
+            "price_usd",
+            "original_price",
+            "position_type"
+        ]
+    }
+}

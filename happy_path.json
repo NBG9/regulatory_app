@@ -1,0 +1,7 @@
+[
+  { "symbol": "AAPL", "quantity": 1200, "price": 170.25, "currency": "USD" },
+  { "symbol": "MSFT", "quantity": 800, "price": 420.10, "currency": "USD" },
+  { "symbol": "GOOGL", "quantity": 500, "price": 140.00, "currency": "USD" },
+  { "symbol": "AMZN", "quantity": 300, "price": 180.50, "currency": "USD" },
+  { "symbol": "NVDA", "quantity": 600, "price": 880.00, "currency": "USD" }
+]

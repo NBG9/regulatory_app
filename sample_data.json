@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "AAPL",
+    "quantity": 1200,
+    "price": 170.25,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TSLA",
+    "quantity": 900,
+    "price": 210.10,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SAP",
+    "quantity": 300,
+    "price": 140.00,
+    "currency": "EUR"
+  },
+  {
+    "symbol": "NESN",
+    "quantity": 800,
+    "price": 95.50,
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BABA",
+    "quantity": 1000,
+    "price": 0,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MSFT",
+    "quantity": -50,
+    "price": 420.00,
+    "currency": "USD"
+  }
+]

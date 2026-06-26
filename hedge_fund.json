@@ -1,0 +1,7 @@
+[
+  { "symbol": "SPY", "quantity": 1500, "price": 480.00, "currency": "USD" },
+  { "symbol": "QQQ", "quantity": 1200, "price": 410.00, "currency": "USD" },
+  { "symbol": "TLT", "quantity": 2000, "price": 92.50, "currency": "USD" },
+  { "symbol": "XAUUSD", "quantity": 100, "price": 2300.00, "currency": "USD" },
+  { "symbol": "BTC", "quantity": 25, "price": 65000.00, "currency": "USD" }
+]
